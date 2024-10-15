@@ -1,7 +1,7 @@
 package finalkey;
 
 public class Keyword_Final extends Key{
-final int a=20;//must give value at time of declaration in final key word
+final int a=20;//must give value at time of declaration in final key word,then the value is constant
 //public Keyword_Final()
 //{
 //	 a=30;// we can change final variable when using constructor
