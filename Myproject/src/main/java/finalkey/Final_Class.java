@@ -2,7 +2,7 @@ package finalkey;
 
 
 
-public final class Final_Class  {//when we make class final we can't extends or inherit the class
+public final class Final_Class  {//when we make class final we can't extends oinherit the class
 	int a=10;
 	int b=20;
 	
