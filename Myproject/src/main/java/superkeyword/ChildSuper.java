@@ -7,10 +7,10 @@ public class ChildSuper extends ParentSuper {
 	}	
 		public ChildSuper()
 		{
-			super();
+			super();//invoke the parent class constructor
 			int d=a-b;
 			System.out.println(d);
-			System.out.println(super.a);
+			System.out.println(super.a);//refer the current class variable
 		System.out.println(super.b);
 		super.mul();//super.method name
 		}

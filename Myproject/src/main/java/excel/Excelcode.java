@@ -13,7 +13,7 @@ static XSSFWorkbook w;
 static XSSFSheet sh;
 public static  String getStringData(int a,int b) throws IOException  
 {
-	f=new FileInputStream("C:\\Users\\Kanchi\\Desktop\\Book1.xlsx");
+	f=new FileInputStream("C:\\Users\\Kanchi\\OneDrive\\Desktop");
 	w=new XSSFWorkbook(f);
 	sh=w.getSheet("Sheet1");
 	Row r=sh.getRow(a);
@@ -22,7 +22,7 @@ return c.getStringCellValue();
 }
 public static String getIntegerData(int a,int b) throws IOException{
 	{
-		f=new FileInputStream("C:\\Users\\Kanchi\\Desktop\\Book1.xlsx");
+		f=new FileInputStream("C:\\Users\\Kanchi\\OneDrive\\Desktop");
 		w=new XSSFWorkbook(f);
 		sh=w.getSheet("Sheet1");
 		Row r=sh.getRow(a);

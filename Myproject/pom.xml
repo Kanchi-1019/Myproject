@@ -17,5 +17,10 @@
     <artifactId>poi-ooxml</artifactId>
     <version>5.2.3</version>
 </dependency>
-</dependencies>
+  	<dependency>
+  		<groupId>sample.com</groupId>
+  		<artifactId>AutoPractise</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>

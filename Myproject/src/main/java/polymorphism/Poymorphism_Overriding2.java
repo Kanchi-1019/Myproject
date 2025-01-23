@@ -9,7 +9,7 @@ public void add()//parent and child same method name
 	super.add();// call super
 }
 	public static void main(String[] args) {
-		Poymorphism_Overriding2 o=new Poymorphism_Overriding2();//parent class classname used
+		Polymorphism_Overriding1 o=new Poymorphism_Overriding2();//parent class classname used
 		o.add();
 
 	}
